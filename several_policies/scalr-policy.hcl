@@ -10,7 +10,7 @@ policy "instance_types" {
 }
 policy "blacklist_provider" {
     enabled = true
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
 policy "workspace_name" {
   enabled           = true
