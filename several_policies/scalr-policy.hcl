@@ -1,6 +1,6 @@
 version = "v1"
 
-policy "limit_monthly_cost" {
+policy "limit_monthly_cost_updated" {
   enabled           = true
   enforcement_level = "advisory"
 }
