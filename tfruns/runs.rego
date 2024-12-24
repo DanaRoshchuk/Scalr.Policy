@@ -2,7 +2,7 @@ package terraform
 
 import input.tfrun as tfrun
 
-deny[reason] {
+allow[reason] {
    tfrun
    tfrun.vcs == null
   reason := "Workspace is not a VCS deployment"
