@@ -7,3 +7,7 @@ allow[reason] {
    tfrun.vcs == null
   reason := "Workspace is not a VCS deployment"
 }
+deny contains msg if {
+	tfrun.vcs == null
+	msg := "fggfgfgfdgfgfdgfdg"
+}
