@@ -9,5 +9,4 @@ allow[reason] {
 }
 deny if {
 	tfrun.vcs == null
-	msg := "fggfgfgfdgfgfdgfdg"
 }
