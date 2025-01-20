@@ -12,11 +12,11 @@ policy "blacklist_provider" {
     enabled = true
     enforcement_level = "hard-mandatory"
 }
-/*policy "workspace_name" {
+policy "workspace_name" {
   enabled           = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "hard-mandatory"
 }
-*/
+
 
 /*policy "random_decision" {
   enabled           = true
