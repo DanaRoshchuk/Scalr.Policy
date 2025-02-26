@@ -14,7 +14,7 @@ policy "blacklist_provider" {
 }
 policy "workspace_name" {
   enabled           = true
-  enforcement_level = "advisory"
+  enforcement_level = "soft-mandatory"
 }
 
 
