@@ -6,7 +6,7 @@ policy "limit_monthly_cost" {
 }
 policy "instance_types" {
     enabled = true
-  enforcement_level = "soft-mandatory"
+  enforcement_level = "advisory"
 }
 policy "blacklist_provider" {
     enabled = true
