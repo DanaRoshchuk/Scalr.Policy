@@ -5,8 +5,10 @@ import input.tfrun as tfrun
 # Deny runs when there is a merge error
 deny [msg] {
 # Check if merge_error exists and is not null
-merge_error := tfrun.vcs.pull_request.merge_error
-merge_error != null
+#merge_error := tfrun.vcs.pull_request.merge_error
+#merge_error != null
+ mergeable := tfrun.vcs.pull_request.mergeable
+ mergeable: false
 
 msg := sprintf("Runs are not allowed when there is a merge error: %s", [merge_error])
 }
