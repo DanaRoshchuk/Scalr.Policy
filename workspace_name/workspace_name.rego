@@ -10,5 +10,5 @@ array_contains(arr, elem) {
 
 
 deny["Forbidden workspace name"] {
-    not endswith(tfrun.workspace.name, "-qwerty")
+    not endswith(tfrun.workspace.name, "-Qwerty")
 }
